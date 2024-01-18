@@ -1,67 +1,94 @@
 {
-  "basics": {
-    "name": "Kaelan Valencia",
-    "label": "Student",
-    "picture": "https://github.com/kaelankv.png",
-    "email": "kaelankv@hawaii.edu",
-    "phone": "808-497-9370",
-    "website": "https://kaelankv.github.io",
-    "summary": "I am studying for a B.A. in Information & Computer Science at the University of Hawaii at Manoa. I expect to graduate in Fall, 2026.",
-    "location": { "address": "", "postalCode": "96822", "city": "Honolulu", "countryCode": "USA", "region": "Hawaii" },
-    "profiles": [
-      { "network": "github", "username": "kaelankv", "url": "http://github.com/kaelankv" },
-      { "network": "linkedin", "username": "mollymaluhia", "url": "http://linkedin.com/in/kaelanvalencia" }
+    "basics": {
+        "name": "Kaelan Valencia",
+        "label": "Student",
+        "picture": "https://github.com/kaelankv.png",
+        "email": "kaelankv@hawaii.edu",
+        "phone": "808-497-9370",
+        "website": "https://kaelankv.github.io",
+        "summary": "I am studying for a B.A. in Information & Computer Science at the University of Hawaii at Manoa. I expect to graduate in Fall, 2026.",
+        "location": {
+            "address": "",
+            "postalCode": "96822",
+            "city": "Honolulu",
+            "countryCode": "USA",
+            "region": "Hawaii"
+        },
+        "profiles": [
+            {
+                "network": "github",
+                "username": "kaelankv",
+                "url": "http://github.com/kaelankv"
+            },
+            {
+                "network": "linkedin",
+                "username": "mollymaluhia",
+                "url": "http://linkedin.com/in/kaelanvalencia"
+            }
+        ]
+    },
+    "interests": [
+        {
+            "name": "Web Development"
+        },
+        {
+            "name": "Software Engineering"
+        },
+        {
+            "name": "Artificial Intelligence"
+        }
+    ],
+    "skills": [
+        {
+            "name": "Languages and Frameworks",
+            "keywords": [
+                "C",
+                "C++",
+                "Java",
+                "Javascript",
+                "Perl",
+                "PHP",
+                "Python"
+            ]
+        },
+        {
+            "name": "Toolsets/OS",
+            "keywords": [
+                "MacOS",
+                "Windows",
+                "Ubuntu",
+                "Git/GitHub"
+            ]
+        }
+    ],
+    "education": [
+        {
+            "institution": "University of Hawaii, Honolulu, HI",
+            "area": "Computer Science (expected Fall, 2026)",
+            "studyType": "B.A.",
+            "startDate": "2023",
+            "endDate": "Present"
+        }
+    ],
+    "work": [
+        {
+            "company": "Waianae High School",
+            "position": "Technical Support Staff Member",
+            "startDate": "2022",
+            "endDate": "2023",
+            "summary": "Technical support for Waianae High School"
+        },
+        {
+            "company": "Pizza Hut",
+            "position": "Crew Member",
+            "startDate": "2016",
+            "endDate": "2018",
+            "summary": "Back of the house cook"
+        }
+    ],
+    "references": [
+        {
+            "name": "Available upon request"
+        }
     ]
-  },
-  "interests": [
-    { "name": "Web Development" },
-    { "name": "Software Engineering" },
-    { "name": "Artificial Intelligence" }
-  ],
-  "skills": [
-    {
-      "name": "Languages and Frameworks",
-      "keywords": [ "C", "C++", "Java", "Javascript", "Perl", "PHP", "Python" ]
-    },
-    {
-      "name": "Toolsets/OS",
-      "keywords": [ "MacOS", "Windows", "Ubuntu", "Git/GitHub"]
-    }
-  ],
-  "education": [
-    {
-      "institution": "Leeward Community College, Pearl City, HI",
-      "area": "Information & Computer Science (2023)",
-      "studyType": "A.S.",
-      "startDate": "2017",
-      "endDate": "2023"
-      
-      "institution": "University of Hawaii, Honolulu, HI",
-      "area": "Computer Science (expected Fall, 2026)",
-      "studyType": "B.A.",
-      "startDate": "2023",
-      "endDate": "Present"
-    }
-  ],
-  "work": [
-    {
-      "company": "Waianae High School",
-      "position": "Technical Support Staff Member",
-      "startDate": "2022",
-      "endDate": "2023",
-      "summary": "Technical support for Waianae High School",
-    },
-    {
-      "company": "Pizza Hut",
-      "position": "Crew Member",
-      "startDate": "2016",
-      "endDate": "2018",
-      "summary": "Back of the house cook",
-    }
-  ],
-  "references": [
-    {
-      "name": "Available upon request"
-    }
-  ]
 }
