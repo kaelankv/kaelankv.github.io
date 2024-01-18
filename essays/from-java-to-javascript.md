@@ -27,4 +27,4 @@ A big part of why I've found this class so stressful is the transition from a mo
 ## Final Remarks
 To recap, Javascript is a much more convienent language compared to other languages I've dabbled in. This new style of learning is... Different. It's definitely not the way I'm used to learning. More to come.
 
-Note: ChatGPT was used to fix any spelling/gramamtical errors.
+Note: ChatGPT was used to fix any spelling/grammatical errors.
