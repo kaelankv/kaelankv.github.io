@@ -4,7 +4,7 @@ type: essay
 title: "FirstTechnicalEssay"
 # All dates must be YYYY-MM-DD format!
 date: 2024-01-18
-published: true
+published: false
 labels:
   - Engineering
 ---
@@ -13,11 +13,11 @@ labels:
 
 ## A New Year 
 
-I already had the idea of wanting to do SOMETHING with a computer going into college, but I wasn't quite sure specifically what that was yet when I started my first semester. It wasn't until my second semester when I took a class in Java that I figured that I really liked programming. The process of putting something together yourself, breaking it, fixing the problem, and eventually get it working filled me with a sense of satisfaction, and that I feel like this is something I could do for the rest of my life. I'm not good with my hands, so I figured that this is the next best thing.
+I already had the idea of wanting to do SOMETHING with a computer going into college, but I wasn't quite sure specifically what that was yet when I started my first semester. It wasn't until my second semester when I took a class in Java that I figured that I really liked programming. The process of putting something together yourself, breaking it, fixing the problem, and eventually get it working filled me with a sense of satisfaction, and that I feel like this is something I could do for the rest of my life. I'm not good with my hands, so I figured that this is the next best thing. After getting my associate's in software development, I finally decided I specifically wanted to do web development. Web development seems like the perfect choice. It's a skill in high demand, I get to build stuff, and it's on my computer.
 
 ## Java vs. Javascript
 
-Other than the name, Java and Javascript are two completely different languages. For one, Java isn't strongly typed, and variables will accept any values you assign them as, and this took some getting used to. For example, I kept declaring my increment variables for loops as an integer, rather than just using the let keyword. Another big difference is the fact that Javascript runs in a browser, whereas Java needs an external IDE to run, such as JGrasp or VSCode. The convienence of not needing to download any external software to start coding is a massive advantage Javascript has over Java, considering how I'm the type of person who wants to take the least amount of steps possible to accomplish a task.
+From my research, it seems like Javascript and React is all the rage nowadays for building web applications. I've only had a very brief overview of Javascript in one of my classes, but we didn't go very deep into it because we were learning three other languages at the time. I also have never heard of React until very recently, up until about a year ago as I was scroling through Youtube videos on the subject. Github also seems like the main platform for collaborating on projects. The only experience I've had with Github was downloading Half-Life mods and looking at their source code, but that was about it.
 
 ## A New Style of Learning
 
@@ -26,4 +26,4 @@ A big part of why I've found this class so stressful is the transition from a mo
 ## Final Remarks
 To recap, Javascript is a much more convienent language compared to other languages I've dabbled in. This new style of learning is... Different. It's definitely not the way I'm used to learning. More to come.
 
-Note: ChatGPT was used to fix any spelling/gramamtical errors.
+Note: ChatGPT was used to fix any spelling/grammatical errors.
