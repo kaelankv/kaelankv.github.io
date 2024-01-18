@@ -1,12 +1,13 @@
 ---
 layout: essay
 type: essay
-title: "The difficult things will always be difficult"
+title: "From Java to Javascript"
 # All dates must be YYYY-MM-DD format!
-date: 2016-02-06
+date: 2024-01-17
 published: true
 labels:
   - Engineering
+  - Web Development
 ---
 
 <img width="200px" class="rounded float-start pe-4" src="../img/difficulty/degree_difficulty.jpg">
@@ -15,21 +16,13 @@ labels:
 
 This first week of classes has easily been one of the most stressful weeks of my college career so far. I am still bouncing back from "vacation" mode, meaning I'm still figuring out my workflow and readjusting to a "normal" sleep schedule. I have only been focusing on Javascript this past week, and I still have no idea when I can start working on other classes. Despite all of that though, I can easily see myself enjoying learning more as time goes on. I feel like I'm learning more "real world" skills such as creating a professional portfolio, and hopefully creating a high quality, "professional" website by the end of the semester. As someone who sees myself being a web developer in the future, the stress I'm experiencing now might pay off in the end.
 
-## In the context of programming
+## Java vs. Javascript
 
-In the context of programming, this has always been true. The difficult problems have always been different, although changes in technology can change the landscape quite a bit. "Business" type applications are the things that come to mind for me. Those types of applications are usually coupled in some way with people ... and people are awfully hard to deal with!
+Other than the name, Java and Javascript are two completely different languages. For one, Java isn't strongly typed, and variables will accept any values you assign them as, and this took some getting used to. For example, I kept declaring my increment variables for loops as an integer, rather than just using the let keyword. Another big difference is the fact that Javascript runs in a browser, whereas Java needs an external IDE to run, such as JGrasp or VSCode. The convienence of not needing to download any external software to start coding is a massive advantage Javascript has over Java, considering how I'm the type of person who wants to take the least amount of steps possible to accomplish a task.
 
-Consider that one of the most popular content management systems is also considered the most horrible - Wordpress. But really, is there anything that fills that need? If it was so easy in the first place, where is the solution? Where's the magic CMS that is designed well enough that everyone hops on the boat to use it?
+## A New Style of Learning
 
-Some things are just difficult - building applications that humans use is hard, and will probably be hard for at least the near future.
-
-## In the context of engineering
-
-Ever hear people ragging on engineering companies for delivering late and way over budget? Well, some engineering jobs are really difficult, especially if the requirements and funding are undulating underneath you. Because of the nature of the problem, sometimes engineering firms require large amounts of engineers and workers, inviting further problems and delays.
-
-The Honolulu Rail project at home has become this sort of poster child of failure, budget overrun and overall incompetence in Hawaii. Well, working though regulatory boards and fiscal procedures in Hawaii seems like it's a mind bogglingly difficult job to do. Granted, there might be some fishy stuff going on, but I refuse to believe that everyone is involved for nefarious reasons.
-
-The problem of creating an unprecedented public transportation backbone on an island is difficult! I'm not sure we would have done it right, even if the best people were involved.
+A big part of why I've found this class so stressful is the transition from a more "traditional" style of learning to an "athletic" one. The pacing of this course is absolutely killing me at the moment, but I believe I will eventually find a schedule that I can stick to. As I've mentioned before, I am still transitioning from hanging out with friends every day and staying up all night to having a very busy schedule all of the sudden. Just the idea of having something due almost every day fills me with anxiety, but at the same time, I really enjoy learning the material (something 17 year old me would've never said!).
 
 ## In the context of relationships
 
