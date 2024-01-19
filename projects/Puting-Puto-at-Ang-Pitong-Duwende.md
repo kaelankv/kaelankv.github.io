@@ -11,9 +11,7 @@ labels:
 summary: "A video project I helped create with a team doing a short retelling of Snow White for Filipino 101."
 ---
 
-<div class="ratio ratio-16x9">
-  <iframe src=" "https://www.youtube.com/embed/i7CSvHoLFMY?si=BkbLKLxdn3Kirg2q?autoplay=1&mute=1">"" title="Puting Puto at Ang Pitong Duwende" allowfullscreen></iframe>
-</div>
+[![Puting Puto at Ang Pitong Duwende](img/Screenshot 2024-01-18 212020.png)](https://youtu.be/i7CSvHoLFMY?si=UefFOXLudUuMFWfh "Puting Puto at Ang Pitong Duwende")
 
 Puting Puto at Pitong Duwende (translated to White Puto and the Seven Elves) is a video project I starred in doing a comedic retelling of Snow White in Filipino. It is meant to showcase what we learned in Filipino 101, our video editing skills and how well we can work with ten or so people.
 
