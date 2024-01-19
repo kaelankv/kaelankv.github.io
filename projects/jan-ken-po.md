@@ -18,4 +18,4 @@ This project was meant to teach me about JFrames and handling events. I found th
 
 Here is a link to the reposotory:
 
-Source: <a href="(https://github.com/kaelankv/rockpaperscissors)">kaelankv/rockpaperscissors</a>
+Source: <a href="https://github.com/kaelankv/rockpaperscissors">kaelankv/rockpaperscissors</a>
