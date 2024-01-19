@@ -10,13 +10,9 @@ labels:
 summary: "A PC I built designed for gaming."
 ---
 
-<img class="img-fluid" src="../img/vacay/vacay-home-page.png">
-
-This is the second PC I've built myself last year after a long awaited upgrade. I designed this with gaming in mind, specifically for Escape from Tarkov, because I figured if my PC can handle that game, it should handle most other games I play.
-
-Here are the specs:
-
 <img class="img-fluid" src="..img/image.png">
+
+This is the second PC I've built myself last year after a long awaited upgrade. I designed this with gaming in mind, specifically for Escape from Tarkov, because I figured if my PC can handle that game, it should handle most other games I play. The specs are as pictued above
 
 I had upgraded from the following:
 - i7 6700k overclocked at 4.6 GHz
