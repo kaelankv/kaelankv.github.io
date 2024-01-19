@@ -9,7 +9,7 @@ labels:
   - Engineering
 ---
 
-<img width="800px" class="rounded float-center pe-4" src="img/close-up-of-javascript-on-computer-monitor-660582997-5924aff85f9b585950782e57.jpg">
+<img width="800px" class="rounded float-center pe-4" src="img/3520511.png">
 
 ## Finding the Passion
 
