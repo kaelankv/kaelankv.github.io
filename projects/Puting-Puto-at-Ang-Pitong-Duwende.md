@@ -1,17 +1,17 @@
 ---
 layout: project
 type: project
-image: img/vacay/vacay-square.png
+image: image_2024-01-18_193128198.png
 title: "Puting Puto at Ang Pitong Duwende"
 date: 2023
-published: false
+published: true
 labels:
   - Video Production
   - Team Building
 summary: "A video project I helped create with a team doing a short retelling of Snow White for Filipino 101."
 ---
 
-<img class="img-fluid" src="../img/vacay/vacay-home-page.png">
+<img class="img-fluid" src="img/image_2024-01-18_193128198.png">
 
 Puting Puto at Pitong Duwende (translated to White Puto and the Seven Elves) is a video project I starred in doing a comedic retelling of Snow White in Filipino. It is meant to showcase what we learned in Filipino 101, our video editing skills and how well we can work with ten or so people.
 
