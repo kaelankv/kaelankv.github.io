@@ -30,9 +30,148 @@ if (x != null) {
 
 ```
 
+This is one of StackOverflow's top voted questions for Java, indicating that this might be a good question. While it is really short and something that could be Googled, it is still a high quality, valid question rather than a simple "please fix" type of question. It demonstrates that the original poster knows exactly what they want to achieve, how they achieve that, and is simply asking other users for recommendations on improving their code. They have shown that they put effort in first before asking their question, and managed to illicit many useful answers. In fact, the top answer provides a very clear and detailed answer with the commenter giving methods such as the ```Objects.requireNonNull(foo)``` method for Java 1.7 or above or ```assertions``` for earlier Java versions.
+
 ## Perhaps...
 
-I'm hoping to delve more into these topics as the semester goes on. Navigating Github was a little overwhelming at first, but it's actually not too bad. Javascript syntax is already similar to most languages I've dabbled in, though ES6 might take some getting used to. I'm mainly excited at the prospect of finally building something that closely resembles a "real-world" project. Since we're doing modules on freecodecamp, I've also signed up for The Odin Project to get a little more experience alongside freecodecamp. I'd have to see how my workload's going to be like for the rest of the semester though!
+On the other hand, while there are plenty of "good" questions on StackOverflow, there is an entire sea of "bad" questions as well. Knowing the difference between the two can save a lot of headache and mindless scrolling to find the right information. Take this example:
+
+```
+Q: java.lang.NullPointerException error help me [closed]
+
+it's my logCat.
+
+04-09 09:11:18.178: E/AndroidRuntime(829): FATAL EXCEPTION: main
+04-09 09:11:18.178: E/AndroidRuntime(829): java.lang.NullPointerException
+04-09 09:11:18.178: E/AndroidRuntime(829):  at com.example.androidresim.Activitygiris.onLoadScene(Activitygiris.java:84)
+04-09 09:11:18.178: E/AndroidRuntime(829):  at org.anddev.andengine.ui.activity.BaseGameActivity.doResume(BaseGameActivity.java:158)
+04-09 09:11:18.178: E/AndroidRuntime(829):  at org.anddev.andengine.ui.activity.BaseGameActivity.onWindowFocusChanged(BaseGameActivity.java:82)
+04-09 09:11:18.178: E/AndroidRuntime(829):  at com.android.internal.policy.impl.PhoneWindow$DecorView.onWindowFocusChanged(PhoneWindow.java:2462)
+04-09 09:11:18.178: E/AndroidRuntime(829):  at android.view.View.dispatchWindowFocusChanged(View.java:7578)
+04-09 09:11:18.178: E/AndroidRuntime(829):  at android.view.ViewGroup.dispatchWindowFocusChanged(ViewGroup.java:962)
+04-09 09:11:18.178: E/AndroidRuntime(829):  at android.view.ViewRootImpl$ViewRootHandler.handleMessage(ViewRootImpl.java:3115)
+04-09 09:11:18.178: E/AndroidRuntime(829):  at android.os.Handler.dispatchMessage(Handler.java:99)
+04-09 09:11:18.178: E/AndroidRuntime(829):  at android.os.Looper.loop(Looper.java:137)
+04-09 09:11:18.178: E/AndroidRuntime(829):  at android.app.ActivityThread.main(ActivityThread.java:5103)
+04-09 09:11:18.178: E/AndroidRuntime(829):  at java.lang.reflect.Method.invokeNative(Native Method)
+04-09 09:11:18.178: E/AndroidRuntime(829):  at java.lang.reflect.Method.invoke(Method.java:525)
+04-09 09:11:18.178: E/AndroidRuntime(829):  at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:737)
+04-09 09:11:18.178: E/AndroidRuntime(829):  at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:553)
+04-09 09:11:18.178: E/AndroidRuntime(829):  at dalvik.system.NativeStart.main(Native Method)
+
+and it's my class.
+
+public class Activitygiris extends BaseGameActivity {
+
+    private static final int CAMERA_WIDTH=800;
+    private static final int CAMERA_HEIGHT=480;
+
+
+    private Camera camera;
+    private Engine engine;
+    Scene sahne;
+
+    private Texture texSaha,texOyuncu1,texOyuncu2,texRedWins,texBlueWins;
+    private TextureRegion texRegSaha,texRegOyuncu1,texRegOyuncu2,texRegRedWins,texRegBlueWins;
+    private Sprite spriteSaha,spriteOyuncu1,spriteOyuncu2,spriteRedWins,spriteBlueWins;
+
+    private TimerHandler timerBeklet;
+
+
+    @Override
+    public Engine onLoadEngine() {
+        // TODO Auto-generated method stub
+
+        camera= new Camera(0,0,CAMERA_WIDTH,CAMERA_HEIGHT);
+        final EngineOptions engineoptions = new EngineOptions(true,ScreenOrientation.LANDSCAPE,new FillResolutionPolicy(),camera);
+        engineoptions.getTouchOptions().setRunOnUpdateThread(true);
+        engine = new Engine(engineoptions);
+
+
+
+        return engine;
+    }
+
+    @Override
+    public void onLoadResources() {
+        // TODO Auto-generated method stub
+    texSaha=new Texture(1024,512,TextureOptions.BILINEAR_PREMULTIPLYALPHA);
+    texOyuncu1 = new Texture(128,128,TextureOptions.BILINEAR_PREMULTIPLYALPHA);
+    texOyuncu2 = new Texture(128,128,TextureOptions.BILINEAR_PREMULTIPLYALPHA);
+    texRedWins = new Texture(64,256,TextureOptions.BILINEAR_PREMULTIPLYALPHA);  
+    texBlueWins = new Texture(64,256,TextureOptions.BILINEAR_PREMULTIPLYALPHA);
+
+    texRegSaha = TextureRegionFactory.createFromAsset(texSaha, this, "gfx/Arkaplan.jpg",0,0);
+    texRegOyuncu1 = TextureRegionFactory.createFromAsset(texOyuncu1, this, "gfx/kol1.png",0,0);
+    texRegOyuncu2 = TextureRegionFactory.createFromAsset(texOyuncu2, this, "gfx/kol2.png",0,0); 
+    texRegBlueWins = TextureRegionFactory.createFromAsset(texBlueWins, this, "gfx/bluewins.png",0,0);
+    texRegRedWins = TextureRegionFactory.createFromAsset(texRedWins, this, "gfx/redwins.png",0,0);
+
+    Texture [] textures = {texSaha,texOyuncu1,texOyuncu2,texBlueWins,texRedWins };  
+
+    mEngine.getTextureManager().loadTextures(textures);
+    }
+    @Override
+    public Scene onLoadScene() {
+        // TODO Auto-generated method stub
+
+        this.engine.registerUpdateHandler(new FPSLogger());
+        this.sahne=new Scene();
+
+        spriteSaha = new Sprite(0, 0, texRegSaha);
+        spriteOyuncu1 = new Sprite(600, CAMERA_HEIGHT/2-64, texRegOyuncu1);
+        spriteOyuncu2 = new Sprite(50, CAMERA_HEIGHT/2-64, texRegOyuncu2);
+        spriteRedWins = new Sprite(CAMERA_HEIGHT-128,CAMERA_HEIGHT/2-128,texRegRedWins);
+        spriteRedWins = new Sprite(CAMERA_HEIGHT+32,CAMERA_HEIGHT/2-128,texRegBlueWins.clone());
+
+        spriteBlueWins.setVisible(false);
+
+        mEngine.registerUpdateHandler(timerBeklet = new TimerHandler(3, false,new ITimerCallback() {
+
+            @Override
+            public void onTimePassed(TimerHandler pTimerHandler) {
+                // TODO Auto-generated method stub
+
+
+                spriteRedWins.setRotation(180);
+                mEngine.registerUpdateHandler(timerBeklet= new TimerHandler(3,false, new ITimerCallback() {
+
+                    @Override
+                    public void onTimePassed(TimerHandler pTimerHandler) {
+                        // TODO Auto-generated method stub
+
+                        spriteBlueWins.setVisible(true);
+                        spriteRedWins.setVisible(false);
+
+                    }
+                }));
+
+            }
+        }));
+
+        this.sahne.attachChild(spriteSaha);
+        this.sahne.attachChild(spriteOyuncu1);
+        this.sahne.attachChild(spriteOyuncu2);
+        this.sahne.attachChild(spriteBlueWins);
+        this.sahne.attachChild(spriteRedWins);
+
+
+        return this.sahne;  
+    }
+
+    @Override
+    public void onLoadComplete() {
+        // TODO Auto-generated method stub
+
+    }
+
+}
+
+Help me, please..
+
+```
+
+The original poster simply posted a log and their source code with no other background information. What exactly is the problem? What are they trying to achieve? It certainly doesn't seem like they tried to help themselves first. It's no surprise that this question was closed and received four downvotes. You simply just can't expect people to take your code and debug it for free. The original poster doesn't seem like they've also narrowed down exactly what their problem is. They did put the specific error being thrown, however they do not point out exactly where in the code that error's being thrown. Luckily for the original poster, a commenter pointed out that the exception was being thrown due to the fact that ```spriteBlueWin``` was referencing ```null```, however unlike the previous question, this is the only answer and we're not sure if the code still achieved the desired result.
 
 ## Final Remarks
 I've found something I want to do. The future looks just a little more certain now. Hopefully going to delve much deeper into the actual process of software engineering this semester. More to come.
