@@ -10,7 +10,7 @@ labels:
 summary: "A simple game of rock paper scissors"
 ---
 
-<img class="img-fluid" src="..img/image.png">
+<img class="img-fluid" src="../img/image.png">
 
 A simple rock paper scissors game (or Jan ken po as it's called in certain parts of the world) that matches you up against a CPU. Once the user is finished with the game, the final scores are outputted to a text file called "scores.txt."
 
