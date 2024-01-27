@@ -9,7 +9,7 @@ labels:
   - Engineering
 ---
 
-<img width="800px" class="rounded float-left pe-4" src="img/3520511.png">
+<img width="800px" class="rounded float-left pe-4" src="../img/3520511.png">
 
 ## Finding the Passion
 
