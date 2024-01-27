@@ -10,7 +10,7 @@ labels:
 summary: "A PC I built designed for gaming."
 ---
 
-<img src=".img/partlist.png" class="rounded float-start">
+<img src="./img/partlist.png" class="rounded float-start">
 
 This is the second PC I've built myself last year after a long awaited upgrade. I designed this with gaming in mind, specifically for Escape from Tarkov, because I figured if my PC can handle that game, it should handle most other games I play. The specs are as pictued above
 
