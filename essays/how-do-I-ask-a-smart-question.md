@@ -9,7 +9,7 @@ labels:
   - Discussion
 ---
 
-<img width="300px" class="rounded float-start pe-4" src=".img/question-clipart-transparent-23.png">
+<img width="300px" class="rounded float-start pe-4" src="../img/question-clipart-transparent-23.png">
 
 ## My Experience Asking Questions
 
