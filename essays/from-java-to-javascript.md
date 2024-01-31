@@ -6,7 +6,6 @@ title: "From Java to Javascript"
 date: 2024-01-17
 published: true
 labels:
-  - Engineering
   - Web Development
 ---
 

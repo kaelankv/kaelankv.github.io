@@ -8,7 +8,6 @@ published: false
 labels:
   - Questions
   - Answers
-  - StackOverflow
 ---
 
 <img width="800px" class="rounded float-start pe-4" src="../img/smart-questions/rtfm.png">
