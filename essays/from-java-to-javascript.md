@@ -7,9 +7,10 @@ date: 2024-01-17
 published: true
 labels:
   - Web Development
+  - Engineering
 ---
 
-<img width="200px" class="rounded float-start pe-4" src="../img/JavaScript-Logo-2048x1280.png">
+<img width="800px" class="rounded float-start pe-4" src="../img/JavaScript-Logo-2048x1280.png">
 
 ## A New Year 
 

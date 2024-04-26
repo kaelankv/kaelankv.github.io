@@ -7,6 +7,7 @@ date: 2024-01-25
 published: true
 labels:
   - Discussion
+  - Questions and Answers
 ---
 
 <img width="800px" class="rounded float-start pe-4" src="../img/question-clipart-transparent-23.png">
