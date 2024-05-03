@@ -4,7 +4,7 @@ type: essay
 title: "My AI Tutor"
 # All dates must be YYYY-MM-DD format!
 date: 2024-01-18
-published: false
+published: True
 labels:
   - Web Design
   - Artificial Intelligence
@@ -13,7 +13,7 @@ labels:
 <img width="800px" class="rounded float-left pe-4" src="../img/3520511.png">
 
 ### I. Introduction
-AI has been an extremely helpful tool for me not just for this class, but for a variety of other classes as well. I use AI such as ChatGPT to guide me in the right direction. For example, if I'm writing an essay. I might ask ChatGPT to assist in spelling and grammatical checks, or I might ask it for ideas on what I should research if I don't know where to start. AI has helped me understand software engineering concepts as well such as design patterns and error handling. I have mainly used ChatGPT, but I have recently started using Github Copilot for this class.
+AI has been an extremely helpful tool for me not just for this class, but for a variety of other classes as well. I use AI such as ChatGPT to guide me in the right direction. For example, if I'm writing an essay. I might ask ChatGPT to assist in spelling and grammatical checks, or I might ask it for ideas on what I should research if I don't know where to start. AI has helped me understand software engineering concepts as well such as design patterns and error handling. I have mainly used ChatGPT, but I have recently started using Github Copilot for my final project.
 
 ### II. Personal Experience with AI:
 I have used AI in class this semester in the following areas:
@@ -47,7 +47,7 @@ So I've covered one practical use of AI, are there any other uses I can think of
 [![Mantella](https://staticdelivery.nexusmods.com/mods/1704/images/98631/98631-1692410212-346989320.png)](https://www.youtube.com/watch?v=FLmbd48r2Wo)
 
 ### V. Challenges and Opportunities:
-
+I think the main challenge with AI in software engineering is its reliability. It only has the answers some times and other times it will give you completely garbage code that you would then have to spend more time understanding and debugging it. Another issue with AI is that AI doesn't code for longevity. We had a debate about AI usage in our last class, and our classmate Victor brought up a very good point that while AI is good at writing smaller chunks of the application (when it is right, anyways), it does not have the foresight to account for any future issues the project might encounter as it gets bigger and more complex. Another software engineer is eventually going to have to maintain this code, and if it's not written in a way that is understandable to AI, but not to us, then we would just be hindering them in the long run. I'm not sure if AI can really "learn" this skill, but only time will tell for now.
 
 ### VI. Comparative Analysis:
 
