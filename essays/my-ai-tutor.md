@@ -3,7 +3,7 @@ layout: essay
 type: essay
 title: "My AI Tutor"
 # All dates must be YYYY-MM-DD format!
-date: 2024-01-18
+date: 2024-05-3
 published: True
 labels:
   - Web Design
