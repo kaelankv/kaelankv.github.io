@@ -63,6 +63,13 @@
     ],
     "education": [
         {
+          "institution": "Leeward Commmunity College, Pearl City, HI",
+          "area": "Information & Computer Science (Software Development)",
+          "studyType": "A.S.",
+          "startDate": "2018",
+          "endDate": "2023"
+        },
+        {
             "institution": "University of Hawaii, Honolulu, HI",
             "area": "Computer Science (expected Fall, 2026)",
             "studyType": "B.A.",
@@ -71,6 +78,13 @@
         }
     ],
     "work": [
+        {
+          "company": "Center For Korean Studies",
+          "position": "Library Aide",
+          "startDate": "2024",
+          "endDate": "Present",
+          "summary": "Digitizing and organizing Korean language materials for the library, general technical support"
+        },
         {
             "company": "Waianae High School",
             "position": "Technical Support Staff Member",

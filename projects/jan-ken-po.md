@@ -4,7 +4,7 @@ type: project
 image: img/cartoon-rock-paper-scissors-vector-characters.png
 title: "Jan Ken Po Game"
 date: 2021
-published: true
+published: false
 labels:
   - Java
 summary: "A simple game of rock paper scissors"
