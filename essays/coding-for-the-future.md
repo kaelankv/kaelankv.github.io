@@ -10,7 +10,7 @@ labels:
   - JavaScript
 ---
 
-<img width="800px" class="rounded float-left pe-4" src="../img/coding-concept-on-black-vector-15270192.jpg">
+<img width="800px" class="rounded float-left pe-4" src="img/coding-concept-on-black-vector-15270192.jpg">
 
 ## Why Have Coding Standards?
 

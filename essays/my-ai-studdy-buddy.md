@@ -10,7 +10,7 @@ labels:
   - Artificial Intelligence
 ---
 
-<img width="800px" class="rounded float-left pe-4" src="../img/openai.png">
+<img width="800px" class="rounded float-left pe-4" src="img/openai.png">
 
 ### I. Introduction
 AI has been an extremely helpful tool for me not just for this class, but for a variety of other classes as well. I use AI such as ChatGPT to guide me in the right direction. For example, if I'm writing an essay. I might ask ChatGPT to assist in spelling and grammatical checks, or I might ask it for ideas on what I should research if I don't know where to start. AI has helped me understand software engineering concepts as well such as design patterns and error handling. I have mainly used ChatGPT, but I have recently started using Github Copilot for my final project.

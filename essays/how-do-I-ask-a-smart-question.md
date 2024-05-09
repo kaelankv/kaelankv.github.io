@@ -10,7 +10,7 @@ labels:
   - Questions and Answers
 ---
 
-<img width="800px" class="rounded float-start pe-4" src="../img/question-clipart-transparent-23.png">
+<img width="800px" class="rounded float-start pe-4" src="img/question-clipart-transparent-23.png">
 
 ## My Experience Asking Questions
 

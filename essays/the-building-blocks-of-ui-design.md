@@ -10,7 +10,7 @@ labels:
   - UI Design
 ---
 
-<img width="800px" class="rounded float-left pe-4" src="../img/bootstrap.png">
+<img width="800px" class="rounded float-left pe-4" src="img/bootstrap.png">
 
 ## My Introduction to UI Design
 I wasn't much of an artist growing up, but I always had a knack for making things look good. I think that's why I was drawn to UI design. I've always been fascinated by the way that a well-designed user interface can make a program feel more intuitive and user-friendly. Before I started working with UI frameworks, the only way I knew how to make a website look good was by using CSS. This would've been fine about two and a half decades ago, but in today's world, it is very difficult making a user-friendly website without the use of a UI framework.

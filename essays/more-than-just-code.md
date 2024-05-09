@@ -10,7 +10,7 @@ labels:
   - Reflection
 ---
 
-<img width="800px" class="rounded float-left pe-4" src="../img/How-to-Become-a-Software-Engineer.jpg">
+<img width="800px" class="rounded float-left pe-4" src="img/How-to-Become-a-Software-Engineer.jpg">
 
 ### I. What is Software Engineering?
 After dipping my toes into actual software engineering, I've come to realize that there are many aspects of software engineering that I've never really thought about before. It isn't just about writing code, but writing code that is efficient, maintainable, and scalable. I've learned that there are many tools and frameworks available that makes software engineering a much more efficient process. I've also briefly touched upon the ethics of software engineering, and I will explain my thoughts on that later on.
