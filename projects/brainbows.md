@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: ../essays/img/final-landing.png
+image: ../essays/img/final-landing-thumbnail.png
 title: "Brainbows"
 date: 2024
 published: true
