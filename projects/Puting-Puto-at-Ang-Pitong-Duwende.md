@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: img/Screenshot 2024-01-18 212020.png
+image: ../essays/Screenshot 2024-01-18 212020.png
 title: "Puting Puto at Ang Pitong Duwende"
 date: 2023
 published: true

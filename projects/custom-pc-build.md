@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: img/unnamed.jpg
+image: ../essays/unnamed.jpg
 title: "Custom PC Build"
 date: 2023
 published: true
